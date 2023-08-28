@@ -4,18 +4,18 @@ PortSystem          1.0
 PortGroup           github 1.0
 PortGroup           cmake 1.1
 
-github.setup        mamba-org mamba 2022.11.25
+github.setup        mamba-org mamba 2023.08.24
 name                libmamba
-version             1.1.0
-revision            2
+version             1.5.0
+revision            0
 categories          devel
 platforms           darwin
 license             BSD
 maintainers         {l2dy @l2dy} openmaintainer
 
-checksums           rmd160  4f89072a596bcf8672fe3c29dfc126b303bbcaa0 \
-                    sha256  0b6aa37f3c4ce2df4e8de61cf0155bc943e6ff6bad44298cefd3a16ae41c4f2e \
-                    size    846432
+checksums           rmd160  5292c21e1f147b50a111213850104bd9add55a6e \
+                    sha256  a2739f43bcd71f2d34ac7d378c9b2355b414c0566dbecdb9344e415453f60cb7 \
+                    size    993528
 
 compiler.cxx_standard 2017
 
